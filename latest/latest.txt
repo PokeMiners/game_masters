@@ -19269,9 +19269,9 @@ item_templates {
 item_templates {
   template_id: "ITEM_GIOVANNI_MAP"
   item_settings {
-    item_id: 1503
-    item_type: 22
-    category: 21
+    item_id: ITEM_GIOVANNI_MAP
+    item_type: ITEM_TYPE_INCIDENT_TICKET
+    category: ITEM_CATEGORY_INCIDENT_TICKET
     drop_trainer_level: 100
     incident_ticket {
       ignore_full_inventory: true
@@ -19431,9 +19431,9 @@ item_templates {
 item_templates {
   template_id: "ITEM_LEADER_MAP"
   item_settings {
-    item_id: 1502
-    item_type: 22
-    category: 21
+    item_id: ITEM_LEADER_MAP
+    item_type: ITEM_TYPE_INCIDENT_TICKET
+    category: ITEM_CATEGORY_INCIDENT_TICKET
     drop_trainer_level: 100
     incident_ticket {
       ignore_full_inventory: true
@@ -19443,13 +19443,13 @@ item_templates {
 item_templates {
   template_id: "ITEM_LEADER_MAP_FRAGMENT"
   item_settings {
-    item_id: 1501
-    item_type: 22
-    category: 21
+    item_id: ITEM_LEADER_MAP_FRAGMENT
+    item_type: ITEM_TYPE_INCIDENT_TICKET
+    category: ITEM_CATEGORY_INCIDENT_TICKET
     drop_trainer_level: 100
     incident_ticket {
       upgrade_requirement_count: 6
-      upgraded_item: 1502
+      upgraded_item: ITEM_LEADER_MAP
     }
   }
 }
@@ -130465,4 +130465,4 @@ item_templates {
     sequence: "sys complete"
   }
 }
-timestamp_ms: 1573704536138
+timestamp_ms: 1573814346109
