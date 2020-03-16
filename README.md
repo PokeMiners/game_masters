@@ -6,6 +6,7 @@ The `latest` folder will contain a .txt and a .json of the latest Game Master. O
 The `previous_game_master` folders will contain a timestamped folder for each previous Game Master release. Each folder will contain a .txt and .json file as well. Timestamp format is:
 
 `gm`  
+`gm_version`  
 `apk_version`  
 `day_of_week`  
 `month_and_day`  
