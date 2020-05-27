@@ -8,6 +8,14 @@ The `previous_game_master` folders will contain a timestamped folder for each pr
 `gm`  
 `gm_version`  
 `apk_version`  
+`year-month-day`  
+`hour-minute-second`  
+
+Original timestamp format is:
+
+`gm`  
+`gm_version`  
+`apk_version`  
 `day_of_week`  
 `month_and_day`  
 `hour_minute_second`  
