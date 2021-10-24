@@ -21,5 +21,10 @@ Original timestamp format is:
 `hour_minute_second`  
 `year`
 
+## Note on Obfuscation
+Niantic obfuscates parts of their game code, to make it harder to determine field names. We spend a lot of time going through and trying to make sense of these obfuscated names, but please note they may not be fully accurate. We have prefixed all obfuscated field names that we were not able to 100% determine their names with `ob`. We will try our best to name these fields as accurately as possible, with some being more accurate than others. Even if we are fairly certain of the field name, we will leave the `ob` prefix on until we have confirmation from the code. 
+
+**These fields names may change over time as we determine more accurate names for them so please be aware when using these fields in your apps to put in proper error handling in case of changes.**
+
 ## Disclaimer
 This repo is for educational use only. All content found within this repo is the property of The Pokemon Company and Niantic. PokeMiners did not create or modify any files found within this repo and all copyright belongs to the respective companies. Please respect the original source material.
